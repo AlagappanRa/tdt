@@ -71,6 +71,7 @@ import torch
 from omegaconf import MISSING, OmegaConf
 from sklearn.model_selection import ParameterGrid
 from tqdm.auto import tqdm
+import jiwer
 from jiwer import Compose, ToLowerCase, SubstituteRegexes, RemovePunctuation, ReduceToListOfListOfWords, wer
 
 import nemo.collections.asr as nemo_asr
